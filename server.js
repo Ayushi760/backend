@@ -26,4 +26,4 @@ app.get("/users", (req, res) => {
   });
 });
 
-app.listen(8000, () => console.log("Backend running on port 8000"));
+app.listen(8000, "0.0.0.0", () => console.log("Backend running on port 8000"));
